@@ -1,0 +1,16 @@
+{
+  "name": "transaction-faker-app",
+  "version": "1.0.0",
+  "description": "Embeds faker-fs and Express, to expose a (tiny library) of functions generating random transactions",
+  "main": "libtransaction.js",
+  "scripts": {
+    "start": "node libtransaction.js"
+  },
+  "keywords": [],
+  "author": "Alex Iancu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "@faker-js/faker": "^10.3.0"
+  }
+}
